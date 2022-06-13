@@ -1,0 +1,216 @@
+[
+  {
+    "title": "CheatSheets",
+    "introduction": "",
+    "topics": [
+      {
+        "name": "Css CheatSheets and additional resources",
+        "resources": [
+          " https://htmlcheatsheet.com/css/",
+          "https://www.toptal.com/css/css-cheat-sheet",
+          "https://cssreference.io/",
+          "https://css-tricks.com/semantic-class-names/",
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference",
+          "https://caniuse.com/"
+        ]
+      },
+      {
+        "name": "BEM CheatSheet",
+        "resources": ["https://9elements.com/bem-cheat-sheet"]
+      },
+      {
+        "name": "Command Line Cheat Sheet",
+        "resources": [
+          "https://www.git-tower.com/blog/command-line-cheat-sheet/"
+        ]
+      },
+      {
+        "name": "Flexbox CheatSheet",
+        "resources": ["https://yoksel.github.io/flex-cheatsheet"]
+      },
+      {
+        "name": "Animation Cheat Sheet",
+        "resources": [
+          "https://cssanimation.rocks/cheatsheets/transitions_animations.pdf",
+          "https://easings.net/en#",
+          "https://cubic-bezier.com/"
+        ]
+      },
+      {
+        "name": "",
+        "resources": [""]
+      }
+    ]
+  },
+  {
+    "title": "CSS",
+    "introduction": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.",
+
+    "topics": [
+      {
+        "name": "Css Units",
+        "description": "Every CSS declaration includes a property / value pair. Depending on the property, the value can include a single integer or keyword, to a series of keywords and values with or without units. There are a common set of data types -- values and units -- that CSS properties accept",
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"
+        ]
+      },
+      {
+        "name": "Css Selector",
+        "description": "CSS selectors are part of a CSS rule that allows you to select the contents you want to style.CSS selectors define the elements to which a set of CSS rules apply.",
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#Simple_selectors",
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors",
+          "https://www.volusion.com/blog/css-selectors/",
+          "https://flukeout.github.io/"
+        ]
+      },
+      {
+        "name": "Css Specificity",
+        "description": "Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors.",
+        "resources": [
+          "https://slicejack.com/quick-guide-to-css-specificity/",
+          "https://specifishity.com/",
+          "https://specificity.keegan.st/"
+        ]
+      },
+      {
+        "name": "Box Model",
+        "description": "The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.",
+        "resources": [
+          " https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#What_is_the_CSS_box_model",
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing",
+          "https://developers.google.com/web/tools/chrome-devtools"
+        ]
+      },
+      {
+        "name": "Display",
+        "description": "",
+        "resources": [
+          "https://css-tricks.com/fighting-the-space-between-inline-block-elements/",
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/display",
+          "https://css-tricks.com/almanac/properties/d/display/",
+          "https://css-tricks.com/when-do-you-use-inline-block/"
+        ]
+      },
+      {
+        "name": "FlexBox",
+        "description": "The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities.",
+        "resources": [
+          "http://flexbox.malven.co/",
+          "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+          "https://flexbox.malven.co/"
+        ]
+      },
+      {
+        "name": "FlexBox Games",
+        "description": "",
+        "resources": [
+          "https://flexboxfroggy.com/",
+          "http://www.flexboxdefense.com/",
+          "https://flexboxzombies.com/p/flexbox-zombies"
+        ]
+      },
+      {
+        "name": "FlexBox Advanced",
+        "description": "",
+        "resources": [
+          "https://css-tricks.com/the-peculiar-magic-of-flexbox-and-auto-margins/",
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Controlling_Ratios_of_Flex_Items_Along_the_Main_Ax",
+          "https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/",
+          "https://gedd.ski/post/the-difference-between-width-and-flex-basis/",
+          "https://mastery.games/post/flex-wrap/"
+        ]
+      },
+      {
+        "name": "Css Positioning",
+        "description": "",
+        "resources": [
+          "https://css-tricks.com/almanac/properties/p/position/",
+          "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+          "https://ishadeed.com/article/understanding-z-index",
+          "https://css-tricks.com/all-about-floats/",
+          "https://codepen.io/elad2412/pen/QYLEdK",
+          "https://codepen.io/elad2412/pen/MZZVjw",
+          "https://codepen.io/simevidas/pen/JbdJRZ",
+          "https://alligator.io/css/position-sticky/"
+        ]
+      },
+      {
+        "name": "Sass",
+        "description": "Sass (short for syntactically awesome style sheets) is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the scripting language itself.  Sass consists of two syntaxes. The original syntax, called the indented syntax, uses a syntax similar to Haml. It uses indentation to separate code blocks and newline characters to separate rules. The newer syntax, SCSS (Sassy CSS), uses block formatting like that of CSS. It uses braces to denote code blocks and semicolons to separate rules within a block. The indented syntax and SCSS files are traditionally given the extensions .sass and .scss, respectively.",
+
+        "resources": [
+          "https://sass-lang.com/documentation",
+          " https://devhints.io/sass",
+          "http://www.sassshop.com/",
+          "https://www.sassmeister.com/",
+          "https://webdesign.tutsplus.com/articles/quick-tip-name-your-sass-variables-modularly--webdesign-13364",
+          "https://css-tricks.com/video-screencasts/94-intro-to-pseudo-elements/"
+        ]
+      },
+      {
+        "name": "Transition,Animation and Transform",
+        "description": "CSS transitions provide a way to control animation speed when changing CSS properties.By modifying the coordinate space, CSS transforms change the shape and position of the affected content without disrupting the normal document flow",
+
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties",
+          "https://css-tricks.com/almanac/properties/t/transition/",
+          "https://css-tricks.com/almanac/properties/t/transform/",
+          "https://css-tricks.com/almanac/properties/a/animation/",
+          "https://www.joshwcomeau.com/animation/css-transitions",
+          "https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9",
+          "https://www.creativebloq.com/advice/understand-the-12-principles-of-animation"
+        ]
+      },
+      {
+        "name": "Responsive Web Design",
+        "description": "Responsive web design, originally defined by Ethan Marcotte in A List Apart, responds to the needs of the users and the devices they're using. The layout changes based on the size and capabilities of the device. For example, on a phone users would see content shown in a single column view; a tablet might show the same content in two columns.",
+
+        "resources": [
+          "https://blog.froont.com/9-basic-principles-of-responsive-web-design/",
+          "https://developers.google.com/web/fundamentals/design-and-ux/responsive",
+          "https://responsively.app/"
+        ]
+      },
+
+      {
+        "name": "Diving Deeper",
+        "description": "",
+        "resources": [
+          "https://learn.shayhowe.com/advanced-html-css/complex-selectors/",
+          "https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048",
+          "https://codersblock.com/blog/diving-into-the-before-and-after-pseudo-elements/"
+        ]
+      }
+    ]
+  },
+  {},
+  {
+    "id": "",
+    "title": "Box Model",
+    "introduction": "",
+
+    "topics": [
+      {},
+      {},
+      {},
+      {
+        "name": "",
+        "description": "",
+        "resources": {
+          "links": [""]
+        }
+      },
+      {
+        "name": "",
+        "description": "",
+        "resources": [
+          {
+            "details": "",
+            "link": [""]
+          }
+        ]
+      }
+    ]
+  }
+]
