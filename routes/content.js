@@ -29,7 +29,8 @@ router.get("/:articleName", (req, res) => {
   const content = readContent();
 
   const singleArticle = content.find(
-    (article) => article.title === req.params.articleName
+    (article) =>
+      article.title.toLowerCase() === req.params.articleName.toLowerCase()
   );
   res.json(singleArticle);
 });
