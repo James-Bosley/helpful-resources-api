@@ -37,6 +37,13 @@
         ]
       },
       {
+        "name": "DOM Manipulation Cheat Sheet ",
+        "resources": [
+          "https://github.com/odigity/academy/wiki/DOM-%E2%80%94-Cheatsheet",
+          "https://gist.github.com/thegitfather/9c9f1a927cd57df14a59c268f118ce86"
+        ]
+      },
+      {
         "name": "",
         "resources": [""]
       }
@@ -160,6 +167,27 @@
           "https://www.joshwcomeau.com/animation/css-transitions",
           "https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9",
           "https://www.creativebloq.com/advice/understand-the-12-principles-of-animation"
+        ]
+      },
+      {
+        "name": "Responsive Web Design",
+        "description": "Responsive web design, originally defined by Ethan Marcotte in A List Apart, responds to the needs of the users and the devices they're using. The layout changes based on the size and capabilities of the device. For example, on a phone users would see content shown in a single column view; a tablet might show the same content in two columns.",
+
+        "resources": [
+          "https://blog.froont.com/9-basic-principles-of-responsive-web-design/",
+          "https://developers.google.com/web/fundamentals/design-and-ux/responsive",
+          "https://responsively.app/"
+        ]
+      },
+      {
+        "name": "Media Queries",
+        "description": "Media queries are useful when you want to modify your site or app depending on a device's general type (such as print vs. screen) or specific characteristics and parameters (such as screen resolution or browser viewport width).",
+
+        "resources": [
+          "https://css-tricks.com/css-media-queries/",
+          "https://css-tricks.com/snippets/css/media-queries-for-standard-devices/",
+          "https://www.mydevice.io/",
+          "http://screensiz.es/"
         ]
       },
 
