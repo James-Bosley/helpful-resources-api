@@ -32,6 +32,11 @@ router.get("/:articleName", (req, res) => {
     (article) =>
       article.title.toLowerCase() === req.params.articleName.toLowerCase()
   );
+
+  if (!article) {
+    res.status(400).send("Error: not found");
+  }
+
   res.json(singleArticle);
 });
 
