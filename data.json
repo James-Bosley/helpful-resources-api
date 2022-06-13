@@ -37,6 +37,13 @@
         ]
       },
       {
+        "name": "DOM Manipulation Cheat Sheet ",
+        "resources": [
+          "https://github.com/odigity/academy/wiki/DOM-%E2%80%94-Cheatsheet",
+          "https://gist.github.com/thegitfather/9c9f1a927cd57df14a59c268f118ce86"
+        ]
+      },
+      {
         "name": "",
         "resources": [""]
       }
@@ -172,6 +179,20 @@
           "https://responsively.app/"
         ]
       },
+<<<<<<< HEAD
+=======
+      {
+        "name": "Media Queries",
+        "description": "Media queries are useful when you want to modify your site or app depending on a device's general type (such as print vs. screen) or specific characteristics and parameters (such as screen resolution or browser viewport width).",
+
+        "resources": [
+          "https://css-tricks.com/css-media-queries/",
+          "https://css-tricks.com/snippets/css/media-queries-for-standard-devices/",
+          "https://www.mydevice.io/",
+          "http://screensiz.es/"
+        ]
+      },
+>>>>>>> json-feature
 
       {
         "name": "Diving Deeper",
