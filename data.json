@@ -21,7 +21,9 @@
       },
       {
         "name": "Command Line Cheat Sheet",
-        "resources": ["https://www.git-tower.com/blog/command-line-cheat-sheet/"]
+        "resources": [
+          "https://www.git-tower.com/blog/command-line-cheat-sheet/"
+        ]
       },
       {
         "name": "Flexbox Cheat Sheet",
@@ -86,14 +88,14 @@
         "name": "Box Model",
         "description": "The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.",
         "resources": [
-          " https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#What_is_the_CSS_box_model",
+          " https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model",
           "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing",
           "https://developers.google.com/web/tools/chrome-devtools"
         ]
       },
       {
         "name": "Display",
-        "description": "",
+        "description": "The display property specifies the display behavior (the type of rendering box) of an element.",
         "resources": [
           "https://css-tricks.com/fighting-the-space-between-inline-block-elements/",
           "https://developer.mozilla.org/en-US/docs/Web/CSS/display",
@@ -124,7 +126,7 @@
         "description": "",
         "resources": [
           "https://css-tricks.com/the-peculiar-magic-of-flexbox-and-auto-margins/",
-          "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Controlling_Ratios_of_Flex_Items_Along_the_Main_Ax",
+
           "https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/",
           "https://gedd.ski/post/the-difference-between-width-and-flex-basis/",
           "https://mastery.games/post/flex-wrap/"
@@ -132,7 +134,7 @@
       },
       {
         "name": "Css Positioning",
-        "description": "",
+        "description": "Specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).",
         "resources": [
           "https://css-tricks.com/almanac/properties/p/position/",
           "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
@@ -153,7 +155,6 @@
           " https://devhints.io/sass",
           "http://www.sassshop.com/",
           "https://www.sassmeister.com/",
-          "https://webdesign.tutsplus.com/articles/quick-tip-name-your-sass-variables-modularly--webdesign-13364",
           "https://css-tricks.com/video-screencasts/94-intro-to-pseudo-elements/"
         ]
       },
@@ -211,7 +212,7 @@
     "topics": [
       {
         "name": "Data Structures",
-        "description": "",
+        "description": " A format to organize, manage and store data in a way that allows efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to that data",
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
           "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
@@ -301,7 +302,7 @@
     "topics": [
       {
         "name": "JSX",
-        "description": "",
+        "description": "It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript. JSX produces React “elements”.",
         "resources": [
           "https://reactjs.org/docs/introducing-jsx.html",
           "https://reactjs.org/docs/jsx-in-depth.html",
