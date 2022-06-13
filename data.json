@@ -20,9 +20,7 @@
       },
       {
         "name": "Command Line Cheat Sheet",
-        "resources": [
-          "https://www.git-tower.com/blog/command-line-cheat-sheet/"
-        ]
+        "resources": ["https://www.git-tower.com/blog/command-line-cheat-sheet/"]
       },
       {
         "name": "Flexbox Cheat Sheet",
@@ -181,8 +179,6 @@
           "https://responsively.app/"
         ]
       },
-<<<<<<< HEAD
-=======
       {
         "name": "Media Queries",
         "description": "Media queries are useful when you want to modify your site or app depending on a device's general type (such as print vs. screen) or specific characteristics and parameters (such as screen resolution or browser viewport width).",
@@ -194,7 +190,6 @@
           "http://screensiz.es/"
         ]
       },
->>>>>>> json-feature
 
       {
         "name": "Diving Deeper",
