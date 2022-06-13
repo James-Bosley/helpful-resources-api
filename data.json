@@ -205,7 +205,152 @@
       }
     ]
   },
-  {},
+  {
+    "title": "JavaScript",
+    "introduction": "JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles",
+    "topics": [
+      {
+        "name": "Data Structures",
+        "description": "",
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+          "https://dev.to/zac_heisey/objects-vs-arrays-2g0e",
+          "https://arrayexplorer.netlify.app/",
+          "https://objectexplorer.netlify.app/",
+          "https://eloquentjavascript.net/04_data.html"
+        ]
+      },
+      {
+        "name": "Functions",
+        "description": "",
+        "resources": [
+          "https://javascript.info/function-basics",
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "https://eloquentjavascript.net/03_functions.html",
+          "https://www.freecodecamp.org/news/when-to-use-a-function-declarations-vs-a-function-expression-70f15152a0a0/",
+          "https://fireship.io/courses/javascript/beginner-js-functions/#when-should-you-write-functions/"
+        ]
+      },
+      {
+        "name": "Advanced Functions",
+        "description": "",
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
+          "https://medium.com/@bunlong/arrow-functions-return-rules-in-javascript-b63ed5f25994",
+          "https://css-tricks.com/javascript-scope-closures/",
+          "https://scotch.io/courses/10-need-to-know-javascript-concepts/hoisting",
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters",
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments",
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters"
+        ]
+      },
+      {
+        "name": "Events",
+        "description": "",
+        "resources": [
+          "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events",
+          "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Event#Introduction",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Event#Properties"
+        ]
+      },
+      {
+        "name": "Debugging",
+        "description": "",
+        "resources": [
+          "https://developer.chrome.com/docs/devtools/javascript/",
+          "https://javascript.info/debugging-chrome",
+          "https://raygun.com/learn/javascript-debugging-tips"
+        ]
+      },
+      {
+        "name": "Objects & Constructors",
+        "description": "",
+        "resources": [
+          "https://stackoverflow.com/a/28372106",
+          "https://javascript.info/prototype-inheritance",
+          "https://stackoverflow.com/questions/10430279/extending-an-object-in-javascript",
+          "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Console/dir",
+          "https://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply",
+          "https://kbpsystem777.github.io/You-Dont-Know-JS/this&object-prototypes/",
+          "https://web.dev/javascript-this/"
+        ]
+      },
+      {
+        "name": "Classes",
+        "description": "",
+        "resources": [
+          "https://stackoverflow.com/questions/30783217/what-benefits-does-es2015-es6-class-syntax-provide",
+          "https://stackoverflow.com/questions/31755186/es6-arrow-functions-not-working-on-the-prototype",
+          "https://stackoverflow.com/questions/35537619/why-are-es6-classes-not-hoisted",
+          "https://medium.com/better-programming/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8",
+          "https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898",
+          "https://stackoverflow.com/questions/35537619/why-are-es6-classes-not-hoisted",
+          "https://stackoverflow.com/questions/35537619/why-are-es6-classes-not-hoisted",
+          "https://medium.com/javascript-scene/the-hidden-treasures-of-object-composition-60cd89480381"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "React",
+    "introduction": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.",
+    "topics": [
+      {
+        "name": "JSX",
+        "description": "",
+        "resources": [
+          "https://reactjs.org/docs/introducing-jsx.html",
+          "https://reactjs.org/docs/jsx-in-depth.html",
+          "https://reactjs.org/docs/lists-and-keys.html",
+          "https://reactjs.org/docs/fragments.html",
+          "https://create-react-app.dev/docs/adding-images-fonts-and-files/"
+        ]
+      },
+      {
+        "name": "Props",
+        "description": "One of React's core concepts is splitting UI into small pieces called components. In order to connect components together, we need a way to pass information between them. Props are how data is passed into components.",
+        "resources": [
+          "https://reactjs.org/docs/components-and-props.html",
+          "https://reactjs.org/docs/lists-and-keys.html"
+        ]
+      },
+      {
+        "name": "Handling Events",
+        "description": "",
+        "resources": [
+          "https://reactjs.org/docs/handling-events.html",
+          "https://www.freecodecamp.org/news/the-best-way-to-bind-event-handlers-in-react-282db2cf1530/"
+        ]
+      },
+      {
+        "name": "State",
+        "description": "",
+        "resources": [
+          "https://daveceddia.com/visual-guide-to-state-in-react/",
+          "https://reactjs.org/docs/react-component.html#setstate",
+          "https://reactjs.org/docs/lifting-state-up.html",
+          "https://reactjs.org/docs/state-and-lifecycle.html",
+          "https://daveceddia.com/why-not-modify-react-state-directly/",
+          "https://www.robinwieruch.de/react-state-array-add-update-remove",
+          "https://css-tricks.com/understanding-immutability-in-javascript/"
+        ]
+      },
+      {
+        "name": "LifeCycle methods",
+        "description": "",
+        "resources": [
+          "https://medium.com/@ralph1786/intro-to-react-component-lifecycle-ac52bf6340c",
+          "https://reactjs.org/docs/react-component.html",
+          "https://reactjs.org/docs/state-and-lifecycle.html",
+          "http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/",
+          "https://reactjs.org/docs/error-boundaries.html"
+        ]
+      }
+    ]
+  },
   {
     "id": "",
     "title": "Box Model",
