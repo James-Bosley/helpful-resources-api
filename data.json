@@ -1,13 +1,14 @@
 [
   {
-    "title": "CheatSheets",
+    "title": "Cheatsheets",
     "path": "cheatsheets",
-    "introduction": "",
+    "introduction": "These are some really useful one or two page long informationals that provide some key commands or key code snippets for their given topic. Well worth printing off and pinning to your wall or just saving to your desktop for future reference.",
     "topics": [
       {
-        "name": "Css Cheat Sheets and additional resources",
+        "name": "CSS and additional resources",
+        "description": "Some key CSS properties and values to have to hand.",
         "resources": [
-          " https://htmlcheatsheet.com/css/",
+          "https://htmlcheatsheet.com/css/",
           "https://www.toptal.com/css/css-cheat-sheet",
           "https://cssreference.io/",
           "https://css-tricks.com/semantic-class-names/",
@@ -16,21 +17,23 @@
         ]
       },
       {
-        "name": "BEM Cheat Sheet",
+        "name": "BEM",
+        "description": "Block, Element, Modifier. What more can I say?",
         "resources": ["https://9elements.com/bem-cheat-sheet"]
       },
       {
-        "name": "Command Line Cheat Sheet",
-        "resources": [
-          "https://www.git-tower.com/blog/command-line-cheat-sheet/"
-        ]
+        "name": "Command Line",
+        "description": "Some great git one liner to help speed up your workflow.",
+        "resources": ["https://www.git-tower.com/blog/command-line-cheat-sheet/"]
       },
       {
-        "name": "Flexbox Cheat Sheet",
+        "name": "Flexbox",
+        "description": "Everyone loves flexbox. There is no better way of centering a div.",
         "resources": ["https://yoksel.github.io/flex-cheatsheet"]
       },
       {
-        "name": "Animation Cheat Sheet",
+        "name": "Animation",
+        "description": "A handy cheatsheet to bring some movement to your page.",
         "resources": [
           "https://cssanimation.rocks/cheatsheets/transitions_animations.pdf",
           "https://easings.net/en#",
@@ -38,14 +41,16 @@
         ]
       },
       {
-        "name": "DOM Manipulation Cheat Sheet ",
+        "name": "DOM Manipulation",
+        "description": "Still the best way of applying focus.",
         "resources": [
           "https://github.com/odigity/academy/wiki/DOM-%E2%80%94-Cheatsheet",
           "https://gist.github.com/thegitfather/9c9f1a927cd57df14a59c268f118ce86"
         ]
       },
       {
-        "name": "Express Cheat Sheet",
+        "name": "Express",
+        "description": "Spin up a server in record time.",
         "resources": [
           "https://courses.cs.washington.edu/courses/cse154/19su/resources/assets/cheatsheets/node-cheatsheet.pdf"
         ]
@@ -59,14 +64,14 @@
 
     "topics": [
       {
-        "name": "Css Units",
-        "description": "Every CSS declaration includes a property / value pair. Depending on the property, the value can include a single integer or keyword, to a series of keywords and values with or without units. There are a common set of data types -- values and units -- that CSS properties accept",
+        "name": "CSS Units",
+        "description": "Every CSS declaration includes a property / value pair. Depending on the property, the value can include a single integer or keyword, to a series of keywords and values with or without units. There are a common set of data types -- values and units -- that CSS properties accept.",
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"
         ]
       },
       {
-        "name": "Css Selector",
+        "name": "CSS Selector",
         "description": "CSS selectors are part of a CSS rule that allows you to select the contents you want to style.CSS selectors define the elements to which a set of CSS rules apply.",
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#Simple_selectors",
@@ -76,7 +81,7 @@
         ]
       },
       {
-        "name": "Css Specificity",
+        "name": "CSS Specificity",
         "description": "Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors.",
         "resources": [
           "https://slicejack.com/quick-guide-to-css-specificity/",
@@ -114,7 +119,7 @@
       },
       {
         "name": "FlexBox Games",
-        "description": "",
+        "description": "Some fun ways to learn how to master flexbox.",
         "resources": [
           "https://flexboxfroggy.com/",
           "http://www.flexboxdefense.com/",
@@ -123,7 +128,7 @@
       },
       {
         "name": "FlexBox Advanced",
-        "description": "",
+        "description": "Think you know flex? Think again.",
         "resources": [
           "https://css-tricks.com/the-peculiar-magic-of-flexbox-and-auto-margins/",
 
@@ -159,8 +164,8 @@
         ]
       },
       {
-        "name": "Transition,Animation and Transform",
-        "description": "CSS transitions provide a way to control animation speed when changing CSS properties.By modifying the coordinate space, CSS transforms change the shape and position of the affected content without disrupting the normal document flow",
+        "name": "Transition, Animation and Transform",
+        "description": "CSS transitions provide a way to control animation speed when changing CSS properties.By modifying the coordinate space, CSS transforms change the shape and position of the affected content without disrupting the normal document flow.",
 
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties",
@@ -196,7 +201,7 @@
 
       {
         "name": "Diving Deeper",
-        "description": "",
+        "description": "Become a CSS master with these resources.",
         "resources": [
           "https://learn.shayhowe.com/advanced-html-css/complex-selectors/",
           "https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048",
@@ -208,11 +213,11 @@
   {
     "title": "JavaScript",
     "path": "javascript",
-    "introduction": "JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles",
+    "introduction": "JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.",
     "topics": [
       {
         "name": "Data Structures",
-        "description": " A format to organize, manage and store data in a way that allows efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to that data",
+        "description": "A format to organize, manage and store data in a way that allows efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to that data.",
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
           "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
@@ -235,7 +240,7 @@
       },
       {
         "name": "Advanced Functions",
-        "description": "",
+        "description": "Some more detailed views on javascript functions, and a few advanced topics we won't have covered in our lectures.",
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
           "https://medium.com/@bunlong/arrow-functions-return-rules-in-javascript-b63ed5f25994",
@@ -341,7 +346,7 @@
         ]
       },
       {
-        "name": "LifeCycle methods",
+        "name": "Lifecycle methods",
         "description": "Each component in React has a lifecycle which you can monitor and manipulate during its three main phases. The three phases are: Mounting, Updating, and Unmounting.",
         "resources": [
           "https://medium.com/@ralph1786/intro-to-react-component-lifecycle-ac52bf6340c",
@@ -362,7 +367,7 @@
 
       {
         "name": "Hooks",
-        "description": "They let you use state and other React features without writing a class.",
+        "description": "The future of ReactJS. They let you use state and other React features without writing a class.",
         "resources": [
           "https://gumroad.com/l/react-hooks-cheatsheet",
           "https://www.robinwieruch.de/react-hooks",
@@ -376,12 +381,12 @@
   {
     "title": "Browser Storage",
     "path": "browserstorage",
-    "introduction": "Modern web browsers support a number of ways for web sites to store data on the user's computer — with the user's permission — then retrieve it when necessary. This lets you persist data for long-term storage, save sites or documents for offline use, retain user-specific settings for your site, and more",
+    "introduction": "Modern web browsers support a number of ways for web sites to store data on the user's computer — with the user's permission — then retrieve it when necessary. This lets you persist data for long-term storage, save sites or documents for offline use, retain user-specific settings for your site, and more.",
 
     "topics": [
       {
         "name": "Browser Storage",
-        "description": "Modern web browsers support a number of ways for web sites to store data on the user's computer — with the user's permission — then retrieve it when necessary. This lets you persist data for long-term storage, save sites or documents for offline use, retain user-specific settings for your site, and more",
+        "description": "Find out more about the various methods for storing data on users browsers. Find out how it might help you achieve your aims in a future project.",
         "resources": [
           "https://alligator.io/js%2Fintroduction-localstorage-sessionstorage%2F%2F",
           "https://dev.to/changoman/javascript-local-storage-introduction-57ge",
@@ -396,7 +401,7 @@
   {
     "title": "Node",
     "path": "node",
-    "introduction": "As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications",
+    "introduction": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a 'JavaScript everywhere' paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.",
 
     "topics": [
       {
@@ -417,8 +422,7 @@
   {
     "title": "Design Patterns and MVC",
     "path": "mvc",
-    "introduction": "The Model View Controller (MVC) design pattern specifies that an application consist of a data model, presentation information, and control information. The pattern requires that each of these be separated into different objects.",
-
+    "introduction": "In software engineering, a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. Rather, it is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system. Object-oriented design patterns typically show relationships and interactions between classes or objects, without specifying the final application classes or objects that are involved. Patterns that imply mutable state may be unsuited for functional programming languages. Some patterns can be rendered unnecessary in languages that have built-in support for solving the problem they are trying to solve, and object-oriented patterns are not necessarily suitable for non-object-oriented languages. Design patterns may be viewed as a structured approach to computer programming intermediate between the levels of a programming paradigm and a concrete algorithm.",
     "topics": [
       {
         "name": "Design Patterns and MVC",
