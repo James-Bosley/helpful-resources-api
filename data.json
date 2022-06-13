@@ -1,6 +1,7 @@
 [
   {
     "title": "CheatSheets",
+    "path": "cheatsheets",
     "introduction": "",
     "topics": [
       {
@@ -51,6 +52,7 @@
   },
   {
     "title": "CSS",
+    "path": "css",
     "introduction": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.",
 
     "topics": [
@@ -204,6 +206,7 @@
   },
   {
     "title": "JavaScript",
+    "path": "javascript",
     "introduction": "JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles",
     "topics": [
       {
@@ -293,6 +296,7 @@
   },
   {
     "title": "React",
+    "path": "react",
     "introduction": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.",
     "topics": [
       {
@@ -370,6 +374,7 @@
   },
   {
     "title": "Browser Storage",
+    "path": "browserstorage",
     "introduction": "Modern web browsers support a number of ways for web sites to store data on the user's computer — with the user's permission — then retrieve it when necessary. This lets you persist data for long-term storage, save sites or documents for offline use, retain user-specific settings for your site, and more",
 
     "topics": [
@@ -389,6 +394,7 @@
   },
   {
     "title": "Node",
+    "path": "node",
     "introduction": "As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications",
 
     "topics": [
@@ -409,6 +415,7 @@
   },
   {
     "title": "Design Patterns and MVC",
+    "path": "mvc",
     "introduction": "The Model View Controller (MVC) design pattern specifies that an application consist of a data model, presentation information, and control information. The pattern requires that each of these be separated into different objects.",
 
     "topics": [
