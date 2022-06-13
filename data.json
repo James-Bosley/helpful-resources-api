@@ -20,9 +20,7 @@
       },
       {
         "name": "Command Line Cheat Sheet",
-        "resources": [
-          "https://www.git-tower.com/blog/command-line-cheat-sheet/"
-        ]
+        "resources": ["https://www.git-tower.com/blog/command-line-cheat-sheet/"]
       },
       {
         "name": "Flexbox Cheat Sheet",
