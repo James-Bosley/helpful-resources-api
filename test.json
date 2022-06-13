@@ -1,29 +1,36 @@
 {
   "id": "",
   "title": "",
+  "introduction": "",
 
-  "introduction": [
+  "topics": [
     {
-      "description": [
+      "name": "",
+      "description": "",
+      "resources": [
         {
           "details": "",
-          "links": ""
+          "link": ""
         }
       ]
     },
     {
-      "description": [
+      "name": "",
+      "description": "",
+      "resources": [
         {
           "details": "",
-          "links": ""
+          "link": ""
         }
       ]
     },
     {
-      "description": [
+      "name": "",
+      "description": "",
+      "resources": [
         {
           "details": "",
-          "links": ""
+          "link": ""
         }
       ]
     }
