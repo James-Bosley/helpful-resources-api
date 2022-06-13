@@ -4,7 +4,7 @@
     "introduction": "",
     "topics": [
       {
-        "name": "Css CheatSheets and additional resources",
+        "name": "Css Cheat Sheets and additional resources",
         "resources": [
           " https://htmlcheatsheet.com/css/",
           "https://www.toptal.com/css/css-cheat-sheet",
@@ -15,7 +15,7 @@
         ]
       },
       {
-        "name": "BEM CheatSheet",
+        "name": "BEM Cheat Sheet",
         "resources": ["https://9elements.com/bem-cheat-sheet"]
       },
       {
@@ -25,7 +25,7 @@
         ]
       },
       {
-        "name": "Flexbox CheatSheet",
+        "name": "Flexbox Cheat Sheet",
         "resources": ["https://yoksel.github.io/flex-cheatsheet"]
       },
       {
@@ -44,8 +44,10 @@
         ]
       },
       {
-        "name": "",
-        "resources": [""]
+        "name": "Express Cheat Sheet",
+        "resources": [
+          "https://courses.cs.washington.edu/courses/cse154/19su/resources/assets/cheatsheets/node-cheatsheet.pdf"
+        ]
       }
     ]
   },
@@ -220,7 +222,7 @@
       },
       {
         "name": "Functions",
-        "description": "",
+        "description": "A JavaScript function is a block of code designed to perform a particular task.",
         "resources": [
           "https://javascript.info/function-basics",
           "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -244,7 +246,7 @@
       },
       {
         "name": "Events",
-        "description": "",
+        "description": "Events are actions or occurrences that happen in the system you are programming, which the system tells you about so your code can react to them.",
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events",
           "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener",
@@ -254,7 +256,7 @@
       },
       {
         "name": "Debugging",
-        "description": "",
+        "description": "The debugger keyword is used in the code to force stop the execution of the code at a breaking point and calls the debugging function. The debugger function is executed if any debugging is needed at all else no action is performed.",
         "resources": [
           "https://developer.chrome.com/docs/devtools/javascript/",
           "https://javascript.info/debugging-chrome",
@@ -263,7 +265,7 @@
       },
       {
         "name": "Objects & Constructors",
-        "description": "",
+        "description": "A constructor is a special function that creates and initializes an object instance of a class. In JavaScript, a constructor gets called when an object is created using the new keyword. The purpose of a constructor is to create a new object and set values for any existing object properties.",
         "resources": [
           "https://stackoverflow.com/a/28372106",
           "https://javascript.info/prototype-inheritance",
@@ -277,7 +279,7 @@
       },
       {
         "name": "Classes",
-        "description": "",
+        "description": "Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are not shared with ES5 class-like semantics.",
         "resources": [
           "https://stackoverflow.com/questions/30783217/what-benefits-does-es2015-es6-class-syntax-provide",
           "https://stackoverflow.com/questions/31755186/es6-arrow-functions-not-working-on-the-prototype",
@@ -316,7 +318,7 @@
       },
       {
         "name": "Handling Events",
-        "description": "",
+        "description": "Handling events with React elements is very similar to handling events on DOM elements. There are some syntax differences: React events are named using camelCase, rather than lowercase,  With JSX you pass a function as the event handler, rather than a string.",
         "resources": [
           "https://reactjs.org/docs/handling-events.html",
           "https://www.freecodecamp.org/news/the-best-way-to-bind-event-handlers-in-react-282db2cf1530/"
@@ -324,7 +326,7 @@
       },
       {
         "name": "State",
-        "description": "",
+        "description": "schedules an update to a component’s state object. When state changes, the component responds by re-rendering.",
         "resources": [
           "https://daveceddia.com/visual-guide-to-state-in-react/",
           "https://reactjs.org/docs/react-component.html#setstate",
@@ -337,7 +339,7 @@
       },
       {
         "name": "LifeCycle methods",
-        "description": "",
+        "description": "Each component in React has a lifecycle which you can monitor and manipulate during its three main phases. The three phases are: Mounting, Updating, and Unmounting.",
         "resources": [
           "https://medium.com/@ralph1786/intro-to-react-component-lifecycle-ac52bf6340c",
           "https://reactjs.org/docs/react-component.html",
@@ -345,33 +347,85 @@
           "http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/",
           "https://reactjs.org/docs/error-boundaries.html"
         ]
+      },
+      {
+        "name": "REST",
+        "description": "Is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for representational state transfer and was created by computer scientist Roy Fielding",
+        "resources": [
+          "https://martinfowler.com/articles/richardsonMaturityModel.html#level0",
+          "https://www.npmjs.com/package/json-server"
+        ]
+      },
+
+      {
+        "name": "Hooks",
+        "description": "They let you use state and other React features without writing a class.",
+        "resources": [
+          "https://gumroad.com/l/react-hooks-cheatsheet",
+          "https://www.robinwieruch.de/react-hooks",
+          "https://overreacted.io/a-complete-guide-to-useeffect/",
+          "https://www.robinwieruch.de/react-useeffect-hook",
+          "https://ui.dev/why-react-hooks/"
+        ]
       }
     ]
   },
   {
-    "id": "",
-    "title": "",
-    "introduction": "",
+    "title": "Browser Storage",
+    "introduction": "Modern web browsers support a number of ways for web sites to store data on the user's computer — with the user's permission — then retrieve it when necessary. This lets you persist data for long-term storage, save sites or documents for offline use, retain user-specific settings for your site, and more",
 
     "topics": [
-      {},
-      {},
-      {},
       {
-        "name": "",
-        "description": "",
-        "resources": {
-          "links": [""]
-        }
-      },
-      {
-        "name": "",
-        "description": "",
+        "name": "Browser Storage",
+        "description": "Modern web browsers support a number of ways for web sites to store data on the user's computer — with the user's permission — then retrieve it when necessary. This lets you persist data for long-term storage, save sites or documents for offline use, retain user-specific settings for your site, and more",
         "resources": [
-          {
-            "details": "",
-            "link": [""]
-          }
+          "https://alligator.io/js%2Fintroduction-localstorage-sessionstorage%2F%2F",
+          "https://dev.to/changoman/javascript-local-storage-introduction-57ge",
+          "https://javascript.info/localstorage",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API",
+          "https://www.npmjs.com/package/js-cookie",
+          "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Node",
+    "introduction": "As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications",
+
+    "topics": [
+      {
+        "name": "Express",
+        "description": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
+        "resources": [
+          "http://expressjs.com/en/4x/api.html",
+          "https://www.npmjs.com/package/nodemon",
+          "https://devhints.io/express",
+          "https://expressjs.com/en/api.html#req",
+          "https://expressjs.com/en/api.html#res",
+          "https://expressjs.com/en/starter/static-files.html",
+          "https://stackoverflow.com/questions/47232187/express-json-vs-bodyparser-json/49459134"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Design Patterns and MVC",
+    "introduction": "The Model View Controller (MVC) design pattern specifies that an application consist of a data model, presentation information, and control information. The pattern requires that each of these be separated into different objects.",
+
+    "topics": [
+      {
+        "name": "Design Patterns and MVC",
+        "description": "The Model View Controller (MVC) design pattern specifies that an application consist of a data model, presentation information, and control information. The pattern requires that each of these be separated into different objects.",
+        "resources": [
+          "http://reactpatterns.com/",
+          "https://medium.com/javascript-in-plain-english/5-best-practices-for-writing-clean-javascript-be366adb2859",
+          "https://sourcemaking.com/refactoring",
+          "https://developer.chrome.com/docs/apps/app_frameworks/",
+          "https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15",
+          "https://martinfowler.com/bliki/TechnicalDebt.html",
+          "https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html",
+          "https://www.amazon.ca/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882"
         ]
       }
     ]
