@@ -179,8 +179,6 @@
           "https://responsively.app/"
         ]
       },
-<<<<<<< HEAD
-=======
       {
         "name": "Media Queries",
         "description": "Media queries are useful when you want to modify your site or app depending on a device's general type (such as print vs. screen) or specific characteristics and parameters (such as screen resolution or browser viewport width).",
@@ -192,7 +190,6 @@
           "http://screensiz.es/"
         ]
       },
->>>>>>> json-feature
 
       {
         "name": "Diving Deeper",
@@ -208,7 +205,7 @@
   {},
   {
     "id": "",
-    "title": "Box Model",
+    "title": "",
     "introduction": "",
 
     "topics": [
