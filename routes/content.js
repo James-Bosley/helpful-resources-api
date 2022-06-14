@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
 const fs = require("fs");
-const { v4: uuidv4 } = require("uuid");
 
 //Re-usable function to read our data file
 
@@ -16,11 +15,11 @@ function readContent() {
 router.get("/", (req, res) => {
   const content = readContent();
 
-  const titles = content.map((article) => {
-    return article.title;
+  const titles = content.map(article => {
+    return { title: article.title, path: article.path };
   });
 
-  res.json(titles);
+  res.status(200).json(titles);
 });
 
 //get an individual article
@@ -29,10 +28,14 @@ router.get("/:articleName", (req, res) => {
   const content = readContent();
 
   const singleArticle = content.find(
-    (article) =>
-      article.title.toLowerCase() === req.params.articleName.toLowerCase()
+    article => article.path.toLowerCase() === req.params.articleName.toLowerCase()
   );
-  res.json(singleArticle);
+
+  if (!singleArticle) {
+    res.status(400).send("Error: not found");
+  }
+
+  res.status(200).json(singleArticle);
 });
 
 module.exports = router;

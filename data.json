@@ -1,12 +1,14 @@
 [
   {
-    "title": "CheatSheets",
-    "introduction": "",
+    "title": "Cheatsheets",
+    "path": "cheatsheets",
+    "introduction": "These are some really useful one or two page long informationals that provide some key commands or key code snippets for their given topic. Well worth printing off and pinning to your wall or just saving to your desktop for future reference.",
     "topics": [
       {
-        "name": "Css CheatSheets and additional resources",
+        "name": "CSS and additional resources",
+        "description": "Some key CSS properties and values to have to hand.",
         "resources": [
-          " https://htmlcheatsheet.com/css/",
+          "https://htmlcheatsheet.com/css/",
           "https://www.toptal.com/css/css-cheat-sheet",
           "https://cssreference.io/",
           "https://css-tricks.com/semantic-class-names/",
@@ -15,21 +17,23 @@
         ]
       },
       {
-        "name": "BEM CheatSheet",
+        "name": "BEM",
+        "description": "Block, Element, Modifier. What more can I say?",
         "resources": ["https://9elements.com/bem-cheat-sheet"]
       },
       {
-        "name": "Command Line Cheat Sheet",
-        "resources": [
-          "https://www.git-tower.com/blog/command-line-cheat-sheet/"
-        ]
+        "name": "Command Line",
+        "description": "Some great git one liner to help speed up your workflow.",
+        "resources": ["https://www.git-tower.com/blog/command-line-cheat-sheet/"]
       },
       {
-        "name": "Flexbox CheatSheet",
+        "name": "Flexbox",
+        "description": "Everyone loves flexbox. There is no better way of centering a div.",
         "resources": ["https://yoksel.github.io/flex-cheatsheet"]
       },
       {
-        "name": "Animation Cheat Sheet",
+        "name": "Animation",
+        "description": "A handy cheatsheet to bring some movement to your page.",
         "resources": [
           "https://cssanimation.rocks/cheatsheets/transitions_animations.pdf",
           "https://easings.net/en#",
@@ -37,32 +41,37 @@
         ]
       },
       {
-        "name": "DOM Manipulation Cheat Sheet ",
+        "name": "DOM Manipulation",
+        "description": "Still the best way of applying focus.",
         "resources": [
           "https://github.com/odigity/academy/wiki/DOM-%E2%80%94-Cheatsheet",
           "https://gist.github.com/thegitfather/9c9f1a927cd57df14a59c268f118ce86"
         ]
       },
       {
-        "name": "",
-        "resources": [""]
+        "name": "Express",
+        "description": "Spin up a server in record time.",
+        "resources": [
+          "https://courses.cs.washington.edu/courses/cse154/19su/resources/assets/cheatsheets/node-cheatsheet.pdf"
+        ]
       }
     ]
   },
   {
     "title": "CSS",
+    "path": "css",
     "introduction": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.",
 
     "topics": [
       {
-        "name": "Css Units",
-        "description": "Every CSS declaration includes a property / value pair. Depending on the property, the value can include a single integer or keyword, to a series of keywords and values with or without units. There are a common set of data types -- values and units -- that CSS properties accept",
+        "name": "CSS Units",
+        "description": "Every CSS declaration includes a property / value pair. Depending on the property, the value can include a single integer or keyword, to a series of keywords and values with or without units. There are a common set of data types -- values and units -- that CSS properties accept.",
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"
         ]
       },
       {
-        "name": "Css Selector",
+        "name": "CSS Selector",
         "description": "CSS selectors are part of a CSS rule that allows you to select the contents you want to style.CSS selectors define the elements to which a set of CSS rules apply.",
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#Simple_selectors",
@@ -72,7 +81,7 @@
         ]
       },
       {
-        "name": "Css Specificity",
+        "name": "CSS Specificity",
         "description": "Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors.",
         "resources": [
           "https://slicejack.com/quick-guide-to-css-specificity/",
@@ -84,14 +93,14 @@
         "name": "Box Model",
         "description": "The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.",
         "resources": [
-          " https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#What_is_the_CSS_box_model",
+          " https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model",
           "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing",
           "https://developers.google.com/web/tools/chrome-devtools"
         ]
       },
       {
         "name": "Display",
-        "description": "",
+        "description": "The display property specifies the display behavior (the type of rendering box) of an element.",
         "resources": [
           "https://css-tricks.com/fighting-the-space-between-inline-block-elements/",
           "https://developer.mozilla.org/en-US/docs/Web/CSS/display",
@@ -110,7 +119,7 @@
       },
       {
         "name": "FlexBox Games",
-        "description": "",
+        "description": "Some fun ways to learn how to master flexbox.",
         "resources": [
           "https://flexboxfroggy.com/",
           "http://www.flexboxdefense.com/",
@@ -119,10 +128,10 @@
       },
       {
         "name": "FlexBox Advanced",
-        "description": "",
+        "description": "Think you know flex? Think again.",
         "resources": [
           "https://css-tricks.com/the-peculiar-magic-of-flexbox-and-auto-margins/",
-          "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Controlling_Ratios_of_Flex_Items_Along_the_Main_Ax",
+
           "https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/",
           "https://gedd.ski/post/the-difference-between-width-and-flex-basis/",
           "https://mastery.games/post/flex-wrap/"
@@ -130,7 +139,7 @@
       },
       {
         "name": "Css Positioning",
-        "description": "",
+        "description": "Specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).",
         "resources": [
           "https://css-tricks.com/almanac/properties/p/position/",
           "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
@@ -151,13 +160,12 @@
           " https://devhints.io/sass",
           "http://www.sassshop.com/",
           "https://www.sassmeister.com/",
-          "https://webdesign.tutsplus.com/articles/quick-tip-name-your-sass-variables-modularly--webdesign-13364",
           "https://css-tricks.com/video-screencasts/94-intro-to-pseudo-elements/"
         ]
       },
       {
-        "name": "Transition,Animation and Transform",
-        "description": "CSS transitions provide a way to control animation speed when changing CSS properties.By modifying the coordinate space, CSS transforms change the shape and position of the affected content without disrupting the normal document flow",
+        "name": "Transition, Animation and Transform",
+        "description": "CSS transitions provide a way to control animation speed when changing CSS properties.By modifying the coordinate space, CSS transforms change the shape and position of the affected content without disrupting the normal document flow.",
 
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties",
@@ -179,8 +187,6 @@
           "https://responsively.app/"
         ]
       },
-<<<<<<< HEAD
-=======
       {
         "name": "Media Queries",
         "description": "Media queries are useful when you want to modify your site or app depending on a device's general type (such as print vs. screen) or specific characteristics and parameters (such as screen resolution or browser viewport width).",
@@ -192,11 +198,10 @@
           "http://screensiz.es/"
         ]
       },
->>>>>>> json-feature
 
       {
         "name": "Diving Deeper",
-        "description": "",
+        "description": "Become a CSS master with these resources.",
         "resources": [
           "https://learn.shayhowe.com/advanced-html-css/complex-selectors/",
           "https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048",
@@ -207,11 +212,12 @@
   },
   {
     "title": "JavaScript",
-    "introduction": "JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles",
+    "path": "javascript",
+    "introduction": "JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.",
     "topics": [
       {
         "name": "Data Structures",
-        "description": "",
+        "description": "A format to organize, manage and store data in a way that allows efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to that data.",
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
           "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
@@ -223,7 +229,7 @@
       },
       {
         "name": "Functions",
-        "description": "",
+        "description": "A JavaScript function is a block of code designed to perform a particular task.",
         "resources": [
           "https://javascript.info/function-basics",
           "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -234,7 +240,7 @@
       },
       {
         "name": "Advanced Functions",
-        "description": "",
+        "description": "Some more detailed views on javascript functions, and a few advanced topics we won't have covered in our lectures.",
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
           "https://medium.com/@bunlong/arrow-functions-return-rules-in-javascript-b63ed5f25994",
@@ -247,7 +253,7 @@
       },
       {
         "name": "Events",
-        "description": "",
+        "description": "Events are actions or occurrences that happen in the system you are programming, which the system tells you about so your code can react to them.",
         "resources": [
           "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events",
           "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener",
@@ -257,7 +263,7 @@
       },
       {
         "name": "Debugging",
-        "description": "",
+        "description": "The debugger keyword is used in the code to force stop the execution of the code at a breaking point and calls the debugging function. The debugger function is executed if any debugging is needed at all else no action is performed.",
         "resources": [
           "https://developer.chrome.com/docs/devtools/javascript/",
           "https://javascript.info/debugging-chrome",
@@ -266,7 +272,7 @@
       },
       {
         "name": "Objects & Constructors",
-        "description": "",
+        "description": "A constructor is a special function that creates and initializes an object instance of a class. In JavaScript, a constructor gets called when an object is created using the new keyword. The purpose of a constructor is to create a new object and set values for any existing object properties.",
         "resources": [
           "https://stackoverflow.com/a/28372106",
           "https://javascript.info/prototype-inheritance",
@@ -280,7 +286,7 @@
       },
       {
         "name": "Classes",
-        "description": "",
+        "description": "Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are not shared with ES5 class-like semantics.",
         "resources": [
           "https://stackoverflow.com/questions/30783217/what-benefits-does-es2015-es6-class-syntax-provide",
           "https://stackoverflow.com/questions/31755186/es6-arrow-functions-not-working-on-the-prototype",
@@ -296,11 +302,12 @@
   },
   {
     "title": "React",
+    "path": "react",
     "introduction": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.",
     "topics": [
       {
         "name": "JSX",
-        "description": "",
+        "description": "It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript. JSX produces React “elements”.",
         "resources": [
           "https://reactjs.org/docs/introducing-jsx.html",
           "https://reactjs.org/docs/jsx-in-depth.html",
@@ -319,7 +326,7 @@
       },
       {
         "name": "Handling Events",
-        "description": "",
+        "description": "Handling events with React elements is very similar to handling events on DOM elements. There are some syntax differences: React events are named using camelCase, rather than lowercase,  With JSX you pass a function as the event handler, rather than a string.",
         "resources": [
           "https://reactjs.org/docs/handling-events.html",
           "https://www.freecodecamp.org/news/the-best-way-to-bind-event-handlers-in-react-282db2cf1530/"
@@ -327,7 +334,7 @@
       },
       {
         "name": "State",
-        "description": "",
+        "description": "schedules an update to a component’s state object. When state changes, the component responds by re-rendering.",
         "resources": [
           "https://daveceddia.com/visual-guide-to-state-in-react/",
           "https://reactjs.org/docs/react-component.html#setstate",
@@ -339,8 +346,8 @@
         ]
       },
       {
-        "name": "LifeCycle methods",
-        "description": "",
+        "name": "Lifecycle methods",
+        "description": "Each component in React has a lifecycle which you can monitor and manipulate during its three main phases. The three phases are: Mounting, Updating, and Unmounting.",
         "resources": [
           "https://medium.com/@ralph1786/intro-to-react-component-lifecycle-ac52bf6340c",
           "https://reactjs.org/docs/react-component.html",
@@ -348,33 +355,87 @@
           "http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/",
           "https://reactjs.org/docs/error-boundaries.html"
         ]
+      },
+      {
+        "name": "REST",
+        "description": "Is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for representational state transfer and was created by computer scientist Roy Fielding",
+        "resources": [
+          "https://martinfowler.com/articles/richardsonMaturityModel.html#level0",
+          "https://www.npmjs.com/package/json-server"
+        ]
+      },
+
+      {
+        "name": "Hooks",
+        "description": "The future of ReactJS. They let you use state and other React features without writing a class.",
+        "resources": [
+          "https://gumroad.com/l/react-hooks-cheatsheet",
+          "https://www.robinwieruch.de/react-hooks",
+          "https://overreacted.io/a-complete-guide-to-useeffect/",
+          "https://www.robinwieruch.de/react-useeffect-hook",
+          "https://ui.dev/why-react-hooks/"
+        ]
       }
     ]
   },
   {
-    "id": "",
-    "title": "Box Model",
-    "introduction": "",
+    "title": "Browser Storage",
+    "path": "browserstorage",
+    "introduction": "Modern web browsers support a number of ways for web sites to store data on the user's computer — with the user's permission — then retrieve it when necessary. This lets you persist data for long-term storage, save sites or documents for offline use, retain user-specific settings for your site, and more.",
 
     "topics": [
-      {},
-      {},
-      {},
       {
-        "name": "",
-        "description": "",
-        "resources": {
-          "links": [""]
-        }
-      },
-      {
-        "name": "",
-        "description": "",
+        "name": "Browser Storage",
+        "description": "Find out more about the various methods for storing data on users browsers. Find out how it might help you achieve your aims in a future project.",
         "resources": [
-          {
-            "details": "",
-            "link": [""]
-          }
+          "https://alligator.io/js%2Fintroduction-localstorage-sessionstorage%2F%2F",
+          "https://dev.to/changoman/javascript-local-storage-introduction-57ge",
+          "https://javascript.info/localstorage",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API",
+          "https://www.npmjs.com/package/js-cookie",
+          "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Node",
+    "path": "node",
+    "introduction": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a 'JavaScript everywhere' paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.",
+
+    "topics": [
+      {
+        "name": "Express",
+        "description": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
+        "resources": [
+          "http://expressjs.com/en/4x/api.html",
+          "https://www.npmjs.com/package/nodemon",
+          "https://devhints.io/express",
+          "https://expressjs.com/en/api.html#req",
+          "https://expressjs.com/en/api.html#res",
+          "https://expressjs.com/en/starter/static-files.html",
+          "https://stackoverflow.com/questions/47232187/express-json-vs-bodyparser-json/49459134"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Design Patterns and MVC",
+    "path": "mvc",
+    "introduction": "In software engineering, a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. Rather, it is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system. Object-oriented design patterns typically show relationships and interactions between classes or objects, without specifying the final application classes or objects that are involved. Patterns that imply mutable state may be unsuited for functional programming languages. Some patterns can be rendered unnecessary in languages that have built-in support for solving the problem they are trying to solve, and object-oriented patterns are not necessarily suitable for non-object-oriented languages. Design patterns may be viewed as a structured approach to computer programming intermediate between the levels of a programming paradigm and a concrete algorithm.",
+    "topics": [
+      {
+        "name": "Design Patterns and MVC",
+        "description": "The Model View Controller (MVC) design pattern specifies that an application consist of a data model, presentation information, and control information. The pattern requires that each of these be separated into different objects.",
+        "resources": [
+          "http://reactpatterns.com/",
+          "https://medium.com/javascript-in-plain-english/5-best-practices-for-writing-clean-javascript-be366adb2859",
+          "https://sourcemaking.com/refactoring",
+          "https://developer.chrome.com/docs/apps/app_frameworks/",
+          "https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15",
+          "https://martinfowler.com/bliki/TechnicalDebt.html",
+          "https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html",
+          "https://www.amazon.ca/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882"
         ]
       }
     ]
